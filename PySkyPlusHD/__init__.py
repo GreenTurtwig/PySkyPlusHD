@@ -79,6 +79,6 @@ class SkyBox:
         freePercent = round(((maxKB - usedKB) / maxKB) * 100, 2)
 
         storage = namedtuple("storage", ["maxKB", "usedKB", "maxMB", "usedMB",
-                             "maxGB", "usedGB", "percentUsed", "percentFree"])
+                             "maxGB", "usedGB", "usedPercent", "freePercent"])
         return storage(maxKB, usedKB, maxMB, usedMB, maxGB, usedGB,
-                       percentUsed, percentFree)
+                       usedPercent, freePercent)
