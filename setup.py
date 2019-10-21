@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="PySkyPlusHD",
-    version="0.1",
+    version="0.1.1",
     author="GreenTurtwig",
     description="Python package to control a Sky+ HD box",
     long_description=long_description,
